@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed0dfda318155a346a5b15cfc5089d57, type: 3}
+  m_Name: O Ovo
+  m_EditorClassIdentifier: 
+  cardType: 0
+  guild: 0
+  cardName: O Ovo.
+  potrait: {fileID: 21300000, guid: 2fb3570c19d35834fb80d49ead2e5b99, type: 3}
+  cardModel: {fileID: 11400000, guid: fc993a84728fc6e4eb1286dd027a183b, type: 2}
+  status:
+  - skill: {fileID: 11400000, guid: 640ca4782a874f045aede71a0e90b00a, type: 2}
+    side: 1
+    cost: 1
+    value: 3
+  - skill: {fileID: 11400000, guid: e11f337e57e576b468832fd510fcb60d, type: 2}
+    side: 0
+    cost: 3
+    value: 3
+  mana: 1
+  uniqueStatus:
+    skill: {fileID: 0}
+    side: 0
+    cost: 0
+    value: 0
